@@ -1,26 +1,19 @@
 body {
-	background: #FFF;
-	/*font-family: 'Chelsea Market', Georgia, serif;
-    font-family: 'Ubuntu', sans-serif;*/
+    background: #FFF;
     font-family: menlo, monospace;
-	font-size: 30px;
-	text-align: center;
+    font-size: 30px;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-	font-size: 100px;
-	font-weight: normal;
-	margin: 0;
-    /*font-family: 'Chelsea Market', Georgia, serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-family: menlo, monospace; 
-    font-family: 'Shadows Into Light', cursive;
-    font-family: 'Averia Serif Libre', cursive;*/
-    font-family: 'Cabin Sketch', cursive; 
+    font-size: 100px;
+    font-weight: normal;
+    margin: 0;
+    font-family: 'Cabin Sketch', cursive;
     color: #000;
-	line-height: 1;
+    line-height: 1;
 }
 
 .inspiredby {
@@ -32,15 +25,15 @@ h1 {
     text-decoration: underline;
 }
 
-.inspiredbyfooter  {
+.inspiredbyfooter {
     font-family: 'Patrick Hand SC', cursive;
     font-size: 14px;
-    color:black;
+    color: black;
     padding: 25px
 }
 
 .heart {
-    color:red;
+    color: red;
     font-size: 12px;
 }
 
@@ -48,18 +41,18 @@ h1 {
     margin-top: -3px;
     position: relative;
     top: 3px;
-    fill:#848484;
-    color:red;
+    fill: #848484;
+    color: red;
 }
 
 .clippy_black {
 
-    background-color:white;
+    background-color: white;
     margin-top: -3px;
     position: relative;
     top: 3px;
-    fill:#848484;
-    color:red;
+    fill: #848484;
+    color: red;
 }
 
 
@@ -87,36 +80,36 @@ h1 {
 
 
 h2 {
-	font-size: 70px;
-	font-weight: normal;
-	margin: 0;
-	color: #FFB000;
+    font-size: 70px;
+    font-weight: normal;
+    margin: 0;
+    color: #FFB000;
     /*font-family: 'Chelsea Market', Georgia, serif;
     font-family: 'Ubuntu', sans-serif;*/
     font-family: menlo, monospace;
     font-family: 'Cabin Sketch', cursive;
-	text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 h3 {
-	font-size: 40px;
-	font-weight: normal;
-	margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
     margin-top: 40px;
-	text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 p {
-	width: 960px;
-	margin: 40px auto;
-	color: #000;
+    width: 960px;
+    margin: 40px auto;
+    color: #000;
     line-height: 145%;
     font-size: 20px;
     font-family: 'Cutive Mono', monospace;
 }
 
 a, a:visited {
-	color: #000;
+    color: #000;
     font-size: 12px;
     text-decoration: none;
 }
@@ -126,26 +119,26 @@ a:hover {
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }
 
 
 pre {
-	font-size: 18px;
+    font-size: 18px;
 }
 
 blockquote {
-	text-align: left;
-	width: 720px;
-	margin: 10px auto;
-	background: #C5C3DE;
-	border: solid 2px #69697A;
-	padding: 0 40px;
+    text-align: left;
+    width: 720px;
+    margin: 10px auto;
+    background: #C5C3DE;
+    border: solid 2px #69697A;
+    padding: 0 40px;
 }
 
 code {
     background-color: #000;
-	font-style: normal;
+    font-style: normal;
     border-radius: 10px;
     color: white;
     padding: 5px 15px;
@@ -158,7 +151,7 @@ code {
 /*----------------------------------------  BLOCKS */
 
 .astrix {
-    font-size:13px;
+    font-size: 13px;
 }
 
 .scrollblock div {
@@ -167,14 +160,13 @@ code {
 }
 
 .scrollblock {
-	position: relative;
-	margin: 0;
-	width: 100%;
+    position: relative;
+    margin: 0;
+    width: 100%;
     color: white;
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
 
 
 .scrollblock span { /**/
@@ -188,55 +180,201 @@ code {
     font-size: 90px;
 }
 
-.block-title { background-color: #FFF; padding-bottom: 50px; }
-.block-title h2 { color: #000; }
-.block-title .meta { font-size: 16px; color: #999; }
-.block-title .meta a { font-size: 16px; color: #333; }
-.block-start-project { background-color: #44B78B; }
-.block-start-project h2 { color: #0C4B33; }
-.block-start-project h2 a { background: none; padding: 0; font-size: normal; }
-.block-start-project a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #0C4B33; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
-.block-start-project a:hover { text-decoration: underline; }
-.block-start-server { background-color: #0C4B33; }
-.block-start-server h2 { color: #FFF; }
-.block-start-server p { color: #FFF; }
-.block-start-server code { background-color: #000; color: #FFF; }
-.block-create-app { background-color: #FFF; }
-.block-create-app h2 { color: #000; }
-.block-workflow { background-color: #FFD343; }
-.block-workflow h2 { color: #06406C; }
-.block-workflow p { color: #06406C; }
-.block-workflow code { color: #000; background-color: white; }
-.block-urlconf { background-color: #cc4037; }
-.block-urlconf span{ color: white; background-color: #cc4037; font-family: 'Nanum Pen Script', cursive; font-size: 25px;}
-.block-urlconf h2, .block-add p { color: #4c0d09; }
-.block-migrate { background-color: #ffc19f; }
-.block-migrate h2 { color: #cc4037; }
-.block-include { background-color: #000; }
-.block-include h2 { color: #FFF; }
-.block-include p { color: #DDD; }
-.block-include code { color: #000; background-color: white; }
-.block-migrate { background-color: #F2F2F2; }
-.block-migrate h2 { color: #666; }
+.block-title {
+    background-color: #FFF;
+    padding-bottom: 50px;
+}
+
+.block-title h2 {
+    color: #000;
+}
+
+.block-title .meta {
+    font-size: 16px;
+    color: #999;
+}
+
+.block-title .meta a {
+    font-size: 16px;
+    color: #333;
+}
+
+.block-start-project {
+    background-color: #44B78B;
+}
+
+.block-start-project h2 {
+    color: #0C4B33;
+}
+
+.block-start-project h2 a {
+    background: none;
+    padding: 0;
+    font-size: normal;
+}
+
+.block-start-project a {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #0C4B33;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.block-start-project a:hover {
+    text-decoration: underline;
+}
+
+.block-start-server {
+    background-color: #0C4B33;
+}
+
+.block-start-server h2 {
+    color: #FFF;
+}
+
+.block-start-server p {
+    color: #FFF;
+}
+
+.block-start-server code {
+    background-color: #000;
+    color: #FFF;
+}
+
+.block-create-app {
+    background-color: #FFF;
+}
+
+.block-create-app h2 {
+    color: #000;
+}
+
+.block-workflow {
+    background-color: #FFD343;
+}
+
+.block-workflow h2 {
+    color: #06406C;
+}
+
+.block-workflow p {
+    color: #06406C;
+}
+
+.block-workflow code {
+    color: #000;
+    background-color: white;
+}
+
+.block-urlconf {
+    background-color: #cc4037;
+}
+
+.block-urlconf span {
+    color: white;
+    background-color: #cc4037;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;
+}
+
+.block-urlconf h2, .block-add p {
+    color: #4c0d09;
+}
+
+.block-migrate {
+    background-color: #ffc19f;
+}
+
+.block-migrate h2 {
+    color: #cc4037;
+}
+
+.block-include {
+    background-color: #000;
+}
+
+.block-include h2 {
+    color: #FFF;
+}
+
+.block-include p {
+    color: #DDD;
+}
+
+.block-include code {
+    color: #000;
+    background-color: white;
+}
+
+.block-migrate {
+    background-color: #F2F2F2;
+}
+
+.block-migrate h2 {
+    color: #666;
+}
 
 
- 
-.block-resources { background-color: #24292A; }
-.block-resources h2 { color: #cc4037; }
-.block-resources ul { list-style: disc; margin: 0; padding: 0; }
-.block-resources ul li a { font-size: 24px; color: #cc4037; }
+.block-resources {
+    background-color: #24292A;
+}
 
-.block-credits { background-color: white}
-.block-credits div { font-size: 15px; color: green; }
-.block-api { background-color: #348fd4; }
-.block-api h2 { color: #06406c; }
-.block-superuser { background-color: #f2e3bc }
-.block-superuser h2 { color: #505168 }
+.block-resources h2 {
+    color: #cc4037;
+}
+
+.block-resources ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0;
+}
+
+.block-resources ul li a {
+    font-size: 24px;
+    color: #cc4037;
+}
+
+.block-credits {
+    background-color: white
+}
+
+.block-credits div {
+    font-size: 15px;
+    color: green;
+}
+
+.block-api {
+    background-color: #348fd4;
+}
+
+.block-api h2 {
+    color: #06406c;
+}
+
+.block-superuser {
+    background-color: #f2e3bc
+}
+
+.block-superuser h2 {
+    color: #505168
+}
 
 
-.block-admin-modify { background-color: #505168; }
-.block-admin-modify h2 { color: #b3c0a4; }
-.block-admin-modify p { color: #b3c0a4; }
+.block-admin-modify {
+    background-color: #505168;
+}
+
+.block-admin-modify h2 {
+    color: #b3c0a4;
+}
+
+.block-admin-modify p {
+    color: #b3c0a4;
+}
 
 .report {
     font-size: 12px;
@@ -248,7 +386,7 @@ code {
     font-style: italic;
 }
 
-.example span{
+.example span {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 7px;
 }
